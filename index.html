@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-container"></div>
+
+    <div class="container">
+        <!-- Page 1: Welcome -->
+        <div class="page page-1 active">
+            <div class="page-content">
+                <h1 class="welcome-title">Happy Anniversary ❤️</h1>
+                <div class="typing-container">
+                    <p class="typing-text"></p>
+                    <span class="typing-cursor"></span>
+                </div>
+                <div class="personalization-section">
+                    <input 
+                        type="text" 
+                        id="nameInput" 
+                        class="name-input" 
+                        placeholder="Enter your name"
+                        maxlength="30"
+                    >
+                    <p class="personalized-greeting" id="personalizedGreeting"></p>
+                </div>
+            </div>
+            <div class="navigation-buttons">
+                <button class="nav-btn nav-prev" disabled>← Previous</button>
+                <button class="nav-btn nav-next">Next →</button>
+            </div>
+        </div>
+
+        <!-- Page 2: Romantic Message -->
+        <div class="page page-2">
+            <div class="page-content message-content">
+                <h2 class="page-title">Our Love Story</h2>
+                <div class="message-lines">
+                    <p class="message-line line-1">You make every day feel like a beautiful dream.</p>
+                    <p class="message-line line-2">With you, I found my home in another soul.</p>
+                    <p class="message-line line-3">Every moment with you is a treasure I never want to lose.</p>
+                    <p class="message-line line-4">You are my greatest adventure and my sweetest peace.</p>
+                    <p class="message-line line-5">Forever with you will never be long enough. 💕</p>
+                </div>
+            </div>
+            <div class="navigation-buttons">
+                <button class="nav-btn nav-prev">← Previous</button>
+                <button class="nav-btn nav-next">Next →</button>
+            </div>
+        </div>
+
+        <!-- Page 3: Promises -->
+        <div class="page page-3">
+            <div class="page-content promises-content">
+                <h2 class="page-title">My Promises to You</h2>
+                <div class="promises-list">
+                    <div class="promise-item promise-1">
+                        <p>I promise to love you deeply and unconditionally, every single day.</p>
+                    </div>
+                    <div class="promise-item promise-2">
+                        <p>I promise to support your dreams and celebrate your victories.</p>
+                    </div>
+                    <div class="promise-item promise-3">
+                        <p>I promise to be your safe harbor in any storm.</p>
+                    </div>
+                    <div class="promise-item promise-4">
+                        <p>I promise to keep the spark of our love burning forever.</p>
+                    </div>
+                    <div class="promise-item promise-5">
+                        <p>I promise to choose you, again and again, for all our lives. 💖</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
